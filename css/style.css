@@ -1,0 +1,198 @@
+* {padding: 0;
+    margin: 0;
+}
+
+
+.mainbackground { 
+      height: 1000px; width: 1000px; 
+      background: red; 
+      margin: 0 auto;
+}
+
+.subbackgroundone { height: 500px; width: 500px; 
+      background: greenyellow;
+      margin-top: 0%;
+      margin: 0%;
+}
+
+.rowone { display: flex;} 
+
+.rowone p { font-size: 48px ;text-align: center; color: lightseagreen; }
+
+.rowtwo { display: flex;} 
+.rowtwo p { font-size: 48px ;text-align: center; color: lightseagreen; }
+
+.rowthree { display: flex;} 
+
+.rowfour { display: flex;} 
+
+.rowfive{ display: flex;} 
+
+.rowsix{ display: flex;} 
+
+.rowseven{ display: flex;} 
+.rowseven p { font-size: 48px ;text-align: center; color: lightseagreen; }
+
+.roweight{ display: flex;} 
+.roweight p { font-size: 48px ;text-align: center; color: lightseagreen; }
+
+
+.chesswhite { height: 61px; width: 61px; background: wheat; border: 1px solid goldenrod; 
+
+} 
+.chessblack { height: 61px; width: 61px; background: black; border: 1px solid goldenrod; 
+
+}
+
+
+
+
+
+
+.subbackgroundtwo { height: 500px; width: 500px; 
+      background: blue;
+      margin-top: -50%;
+      margin-left: 50%; 
+      border: 1px solid black;
+      display: flex;
+      position: relative;
+} 
+
+.finalegreen { height: 100px; width: 100px; background: green; position: absolute;  margin-top: 50%; margin-left: 50%; transform: translate(-50%,-50%);
+ clip-path: polygon(51% 46%, 0% 0%, 0% 100%); }
+.finalemagenta { height: 100px; width: 100px; background: magenta; position: absolute;  margin-top: 50%; margin-left: 50%; transform: translate(-50%,-50%);
+ clip-path: polygon(51% 46%, 100% 0%, 0% 0%); }
+.finaleyellow { height: 100px; width: 100px; background: yellow; position: absolute;  margin-top: 50%; margin-left: 50%; transform: translate(-50%,-50%);
+ clip-path: polygon(51% 46%, 100% 100%, 0% 100%); } 
+.finalepink { height: 100px; width: 100px; background: pink; position: absolute;  margin-top: 50%; margin-left: 50%; transform: translate(-50%,-50%);
+ clip-path: polygon(51% 46%, 100% 100%, 100% 0%); } 
+
+.homegreen { height: 200px ; width: 200px; background: green; position: absolute; }
+.littlegreen { height: 130px; width: 130px; background: white; margin-top: 50%; margin-left: 50%; transform: translate( -50%,-50% ); 
+                }
+
+
+.littleimageone {height: 100%; width: 100%; overflow: hidden; } 
+
+.littleimageone img {height: 100%; width: 100%; object-fit: contain; display: block; } 
+
+
+.homemagenta { height: 200px ; width: 200px; background: magenta; position: absolute; top: 0; left: 60%;} 
+   
+.littlemagenta { height: 130px; width: 130px; background: white; margin-top: 50%; margin-left: 50%; transform: translate( -50%,-50% ); }
+
+.littleimagetwo {height: 100%; width: 100%; overflow: hidden; } 
+
+.littleimagetwo img {height: 100%; width: 100%; object-fit: contain; display: block; } 
+
+.homepink { height: 200px ; width: 200px; background: pink; position: absolute; top: 60%; left: 60%;}
+.littlepink { height: 130px; width: 130px; background: white; margin-top: 50%; margin-left: 50%; transform: translate( -50%,-50% ); }
+
+.littleimagethree {height: 100%; width: 100%; overflow: hidden; } 
+
+.littleimagethree img {height: 100%; width: 100%; object-fit: contain; display: block; } 
+
+
+.homeyellow { height: 200px ; width: 200px; background: yellow; position: absolute; top: 60%; left: 0%;}
+.littleyellow { height: 130px; width: 130px; background: white; margin-top: 50%; margin-left: 50%; transform: translate( -50%,-50% ); }
+
+.littleimagefour {height: 100%; width: 100%; overflow: hidden; } 
+
+.littleimagefour img {height: 100%; width: 100%; object-fit: contain; display: block; } 
+
+.ludubox { height: 31.75px; width: 31.75px; border: 1px solid maroon; background: whitesmoke; }
+
+.luduroweight p { padding:100% ; background-color: magenta;} 
+.ludurowseven p { padding:100% ; background-color: yellow;} 
+.luduroweight h1 { padding:100% ; background-color: yellow;} 
+.ludurownine p { padding:100% ; background-color: magenta;} 
+
+.ludurowsix p { padding:100% ; background-color: green;} 
+.ludurowfive p { padding:100% ; background-color: green;} 
+.ludurowfour p { padding:100% ; background-color: green;} 
+.ludurowthree p { padding:100% ; background-color: green;} 
+.ludurowtwo p { padding:100% ; background-color: green;} 
+.ludurowone p { padding:100% ; background-color: green;} 
+
+.ludurowten p { padding:100% ; background-color: pink;} 
+.luduroweleven p { padding:100% ; background-color: pink;} 
+.ludurowtwelve p { padding:100% ; background-color: pink;} 
+.ludurowthirteen p { padding:100% ; background-color: pink;} 
+.ludurowfourteen p { padding:100% ; background-color: pink;} 
+
+
+
+
+.subbackgroundthree { height: 500px; width: 500px; 
+      background: wheat;
+      margin-bottom: -50%;
+      margin-left: 50%;
+} 
+
+.doormatrowone{ display: flex;}
+.doormatboxone {height: 30px;width: 85px; background: tomato; border: 2px solid black;}
+
+
+.doormatrowtwo{ display: flex;}
+.doormatboxtwo {height: 30px;width: 85px; background: tomato; border: 2px solid black;}
+.doormatboxtwo p { height: 30px;width: 85px; ; background: antiquewhite;}
+
+.doormatrowthree{ display: flex;}
+.doormatboxthree {height: 30px;width: 85px; background: tomato; border: 2px solid black;} 
+.doormatboxthree p { height: 30px;width: 85px; ; background: antiquewhite;}
+
+.doormatrowfour{ display: flex;}
+.doormatboxfour {height: 30px;width: 85px; background: tomato; border: 2px solid black;} 
+.doormatboxfour p { height: 30px;width: 85px; ; background: antiquewhite;}
+
+.doormatrowfive{ display: flex;}
+.doormatboxfive {height: 30px;width: 85px; background: tomato; border: 2px solid black;}
+.doormatboxfive p { height: 30px;width: 85px; ; background: antiquewhite;}
+
+.doormatrowsix{ display: flex;}
+.doormatboxsix {height: 30px;width: 85px; background: tomato; border: 2px solid black;}
+.doormatboxsix p { height: 30px;width: 85px; ; background: antiquewhite;}
+
+.doormatrowseven{ display: flex;}
+.doormatboxseven {height: 30px;width: 85px; background: tomato; border: 2px solid black;} 
+
+
+
+
+h3 { margin: 100px 210px; border: 2px solid goldenrod; display: inline-block;}
+
+
+
+
+.subbackgroundfour { height: 500px; width: 500px; 
+      background: teal;  
+} 
+
+.mother {height: 400px; width: 400px; background: white; margin: 0 auto;
+
+}
+
+.mother h5 { padding: 150px 0 ; text-align: center; position: relative; } 
+
+.mother h5::before { content: ""; position: absolute;
+       height: 1px; width: 40px; background: black; left: 50%; bottom: 150px;
+       } 
+.mother h5::after { content: ""; position: absolute;
+       height: 2px; width: 40px; background: black; left: 40%;
+       } 
+.mother h4 { padding: 150px 0 ; text-align: center; position: relative; } 
+
+.mother h4::before { content: ""; position: absolute;
+       height: 1px; width: 40px; background: black; left: 28%; bottom: 455px;
+       } 
+.mother h4::after { content: ""; position: absolute;
+       height: 2px; width: 40px; background: black; left: 60%; bottom: 455px;
+       } 
+       
+
+
+
+
+
+
+
